@@ -1,0 +1,10 @@
+.body{
+    background-image: url("../images/backgroundimg.jpg") ;
+}
+.title-container{
+    font-size: 34px;
+    background: purple;
+    color: orange;
+    margin: 10px;
+    width: 140px; 
+}
