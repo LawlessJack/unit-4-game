@@ -4,6 +4,11 @@
 <head>
   <title>unit-4-game</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   
@@ -12,12 +17,15 @@
 <body>
   
   <div class ="title-container">Crystal Collector!</div>
-  <p id="HiddenWord"></p>
-  <br>
-  <p id="Guesses-Remaining"></p>
-  <p id="wins-text"></p>
-  <p id="losses-text"></p>
-  <p id="Wrong-letters"></p>
+  <h1>Number to Reach: <span id="number-to-reach"></span></h1>
+  <div id="crystals"><br></div>
+  <p>Your Score</p>
+  <div id = "counter"><span id="your-score"></span></div>
+  <div class = "score-container">
+  <div id= "winstxt">wins: 0</div>
+  <div id= "lossestxt">losses: 0</div>
+  </div>
+ 
 
 <script src ="assets/javascript/game.js"></script>
   
