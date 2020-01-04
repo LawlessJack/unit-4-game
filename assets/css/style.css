@@ -1,6 +1,10 @@
 body{
     background-image: url("../images/backgroundimg.jpg") ;
 }
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
 
 .title-container{
     font-size: 34px;
@@ -11,6 +15,7 @@ body{
 }
 
 .crystal-image {
+    margin: 10px;
     width: 200px;
     height: 200px;
   }
@@ -23,6 +28,7 @@ body{
   }
 
 #counter{
+    margin: 5px;
     width: 100px;
     height: 60px;
     text-align: center;
